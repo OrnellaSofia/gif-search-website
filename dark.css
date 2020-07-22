@@ -1,0 +1,175 @@
+.dark body {
+  background-color: #110038;
+}
+
+.dark .header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+}
+
+.dark .header h1 {
+  color: #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .link-boton1 {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .link-boton1:hover {
+  background: #CE36DB;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .link-boton1:active {
+  border: 1px dotted #110038;
+  background: #CE36DB;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor .link-boton2 {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor .flecha-boton2 {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor:hover .link-boton2, .dark .encabezado .botones-encabezado .boton2-contenedor:hover .flecha-boton2 {
+  border: 1px dotted #110038;
+  background: #CE36DB;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor:active .link-boton2, .dark .encabezado .botones-encabezado .boton2-contenedor:active .flecha-boton2 {
+  border: 1px dotted #110038;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor .theme-seleccion {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-light {
+  background: #CCCCCC;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-dark {
+  background: #2E32FB;
+  border: 1px solid rgba(51, 53, 143, 0.2);
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .mis-guifos {
+  color: #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .mis-guifos:hover {
+  border: 1px dotted #FFFFFF;
+}
+
+.dark .encabezado .botones-encabezado .mis-guifos:hover:active {
+  color: #110038;
+}
+
+.dark .buscador {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .buscador .barra {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  color: #FFFFFF;
+}
+
+.dark .buscador .barra-buscador {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  color: #B4B4B4;
+}
+
+.dark .buscador .boton-buscador {
+  background: #B4B4B4;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .buscador .boton-buscador p {
+  color: #8F8F8F;
+}
+
+.dark .menu-input {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .menu-input .input-boton {
+  background: #CCCCCC;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .menu-input .input-boton:hover {
+  background: #CCCCCC;
+  border: 1px dotted #110038;
+}
+
+.dark .barra-busqueda {
+  background-color: #FFFFFF;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.dark .barra-busqueda p {
+  color: #110038;
+}
+
+.dark .gifs-sugerencias-contenedor .gif-sugerencias {
+  -webkit-box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .gifs-sugerencias-contenedor .gif-sugerencias .barra-titulo {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  -webkit-box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.dark .gifs-sugerencias-contenedor .gif-sugerencias .gif-ver-mas {
+  background-color: #2E32FB;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .resultado-busqueda {
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+/*# sourceMappingURL=dark.css.map */
