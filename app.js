@@ -44,7 +44,7 @@ function cambiarEstiloDark() {
 }
 
 async function gifsSugerencias(){
-  let apiGiphy = await fetch(`http://api.giphy.com/v1/gifs/trending?limit=4&api_key=${apiKey}`)
+  let apiGiphy = await fetch(`https://api.giphy.com/v1/gifs/trending?limit=4&api_key=${apiKey}`)
   .then(res => res.json())
   .then(res => res.data);
   const arrGifsTrending = Array.from(document.getElementsByClassName("js-gif-sugerencias"));
@@ -69,7 +69,7 @@ function addHashtags(array){
 //// PASAR TITULOS A HASHTAGS, GOOGLEAR 
 let contenedorTendencias = document.querySelector(".contenedor-tendencias");
 async function gifsTrending(){
-  let dataGifs = await fetch(`http://api.giphy.com/v1/gifs/trending?limit=20&api_key=${apiKey}&offset=8`)
+  let dataGifs = await fetch(`https://api.giphy.com/v1/gifs/trending?limit=20&api_key=${apiKey}&offset=8`)
   .then(res => res.json())
   .then(res => res.data);
   for(let i = 0; i < dataGifs.length; i++){
@@ -236,7 +236,7 @@ async function displaySavedGifs(){
   let contenedorMisGuifos = document.querySelector(".mis-guifos-contenedor")
   arrLocalId.forEach(async function (i){
     console.log(i)
-    let dataGif = await fetch(`http://api.giphy.com/v1/gifs/${i}?api_key=${apiKey}`)
+    let dataGif = await fetch(`https://api.giphy.com/v1/gifs/${i}?api_key=${apiKey}`)
       .then(res => res.json())
       .then(res => res.data);
       let gif = dataGif.url;
