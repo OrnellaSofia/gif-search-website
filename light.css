@@ -1,0 +1,198 @@
+body {
+  background-color: #FFF4FD;
+  height: auto;
+}
+
+.light body {
+  background-color: #FFF4FD;
+}
+
+.light .header {
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.light .header h1 {
+  color: #FFFFFF;
+}
+
+.light .encabezado .botones-encabezado .link-boton1 {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .encabezado .botones-encabezado .link-boton1:hover {
+  background: #E6BBE2;
+  border: 1px dotted #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .encabezado .botones-encabezado .link-boton1:active {
+  border: 1px dotted #110038;
+  background: #E6BBE2;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor .link-boton2 {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor .theme-seleccion {
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-light {
+  background: #FFF4FD;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-dark {
+  background: #F0F0F0;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor .flecha-boton2 {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor:hover .link-boton2, .light .encabezado .botones-encabezado .boton2-contenedor:hover .flecha-boton2 {
+  border: 1px dotted #110038;
+  background: #E6BBE2;
+}
+
+.light .encabezado .botones-encabezado .boton2-contenedor:active .link-boton2, .light .encabezado .botones-encabezado .boton2-contenedor:active .flecha-boton2 {
+  border: 1px dotted #110038;
+}
+
+.light .encabezado .botones-encabezado .mis-guifos:hover {
+  border: 1px dotted #110038;
+}
+
+.light .encabezado .botones-encabezado .mis-guifos:hover:active {
+  color: #110038;
+}
+
+.light .buscador {
+  background-color: #E6E6E6;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .buscador .barra {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.light .buscador .barra-buscador {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  color: #110038;
+}
+
+.light .buscador .boton-buscador {
+  background: #E6E6E6;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .buscador .boton-buscador p {
+  color: #B4B4B4;
+}
+
+.light .menu-input {
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .menu-input .input-boton {
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .menu-input .input-boton:hover {
+  background: #DBDBDB;
+  border: 1px dotted #808080;
+}
+
+.light .botones-tags .boton-tags {
+  color: #FFFFFF;
+  background: #4180F6;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .barra-busqueda {
+  background-color: #FFFFFF;
+  border: 1px solid #E6BBE2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+
+.light .barra-busqueda p {
+  color: #110038;
+}
+
+.light .gifs-sugerencias-contenedor .gif-sugerencias {
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .gifs-sugerencias-contenedor .gif-sugerencias .barra-titulo {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .gifs-sugerencias-contenedor .gif-sugerencias .gif-ver-mas {
+  background: #4180F6;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .resultados-busqueda {
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+
+.light .contenedor-tendencias .gif-cont-ten .gif-hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.light .contenedor-tendencias .gif-cont-ten #gif-tendencias .barra-hover {
+  height: 15px;
+  width: 30px;
+  background: #FFF4FD;
+}
+
+.light .barra-mis-guifos {
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+/*# sourceMappingURL=light.css.map */

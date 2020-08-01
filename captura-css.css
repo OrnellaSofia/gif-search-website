@@ -1,0 +1,538 @@
+body {
+  background: #FFF4FD;
+}
+
+.captura-light .header {
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.captura-light .header h1 {
+  font-size: 12px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.captura-light .crear-guifos {
+  width: 678px;
+  background: #E6E6E6;
+  height: 386px;
+  margin: auto;
+}
+
+.captura-light .encabezado {
+  display: inline-block;
+  margin-bottom: 78px;
+}
+
+.captura-light .encabezado #flecha {
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.captura-light .encabezado #id {
+  margin-left: 10xp;
+}
+
+.captura-light .barra-crear {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 600;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  margin-bottom: 30px;
+}
+
+.captura-light .crear-guifos .ventana {
+  float: left;
+  position: relative;
+  margin-left: 25px;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto {
+  font-family: "Chakra Petch", sans-serif;
+  float: right;
+  width: 518px;
+  margin-right: 80px;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .titulo {
+  font-size: 16px;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .crear-texto {
+  font-size: 14px;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .botones a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .botones .div-cancelar, .captura-light .crear-guifos .crear-guifos-texto .botones .div-comenzar {
+  width: 144px;
+  height: 36px;
+  margin-top: 28px;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .botones .div-cancelar p, .captura-light .crear-guifos .crear-guifos-texto .botones .div-comenzar p {
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .botones .div-cancelar {
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.captura-light .crear-guifos .crear-guifos-texto .botones .div-comenzar {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  cursor: pointer;
+}
+
+.captura-light .grabacion {
+  height: 548px;
+  width: 860px;
+  background: #E6E6E6;
+  position: absolute;
+  z-index: 2;
+  top: 15%;
+  left: 20%;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  display: none;
+}
+
+.captura-light .grabacion .subiendo-gif {
+  height: 440px;
+  width: 838px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  display: none;
+}
+
+.captura-light .grabacion .subiendo-gif img {
+  margin-left: 389px;
+  margin-top: 147px;
+}
+
+.captura-light .grabacion .subiendo-gif p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 314px;
+}
+
+.captura-light .grabacion .subiendo-gif span {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 12px;
+  color: #110038 64%;
+  margin-left: 300px;
+}
+
+.captura-light .grabacion .video-class {
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin-left: 15px;
+}
+
+.captura-light .grabacion .preview {
+  width: auto;
+  height: 434px;
+  margin-left: 100px;
+  display: none;
+}
+
+.captura-light .grabacion .chequeo {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  height: 22px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.captura-light .grabacion .chequeo img {
+  right: 1%;
+  margin-top: 4px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.captura-light .grabacion .botones-vista-previa {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Chakra Petch", sans-serif;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: none;
+  margin-top: 24px;
+  margin-right: 16px;
+}
+
+.captura-light .grabacion .botones-vista-previa .boton-repetir {
+  width: 144px;
+  height: 30px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  padding-top: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.captura-light .grabacion .botones-vista-previa .boton-subir {
+  width: 144px;
+  height: 30px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  padding-top: 6px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.captura-light .grabacion .boton-capturar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 24px;
+  margin-left: 650px;
+}
+
+.captura-light .grabacion .boton-capturar .icono-camara {
+  height: 36px;
+  width: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  cursor: pointer;
+}
+
+.captura-light .grabacion .boton-capturar .icono-camara img {
+  margin-left: 9px;
+  margin-top: 9px;
+}
+
+.captura-light .grabacion .boton-capturar .div-capturar {
+  height: 36px;
+  width: 144px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  cursor: pointer;
+}
+
+.captura-light .grabacion .boton-capturar .div-capturar p {
+  margin-left: 40px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  margin-right: 24px;
+  margin-top: 8px;
+}
+
+.captura-light .grabacion .boton-listo {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 24px;
+  margin-left: 650px;
+  display: none;
+  position: absolute;
+}
+
+.captura-light .grabacion .boton-listo .div-listo {
+  height: 36px;
+  width: 144px;
+  font-family: "Chakra Petch", sans-serif;
+  background: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+  cursor: pointer;
+}
+
+.captura-light .grabacion .boton-listo .div-listo p {
+  margin-left: 40px;
+  font-size: 16px;
+  margin-right: 24px;
+  margin-top: 8px;
+}
+
+.captura-light .grabacion .boton-listo .icono-listo {
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+  background: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.captura-light .grabacion .boton-listo .icono-listo img {
+  margin-left: 9px;
+  margin-top: 9px;
+}
+
+.captura-light #tendencias {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  color: #110038;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.captura-light #tendencias img {
+  margin-top: 20px;
+}
+
+.captura-light #tendencias p {
+  position: relative;
+  margin-top: 5px;
+}
+
+.captura-light .gifo-subido {
+  height: 391px;
+  width: 721px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  margin-left: 230px;
+  display: none;
+}
+
+.captura-light .gifo-subido .subido-botones {
+  float: right;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  margin-top: 49px;
+  margin-right: 46px;
+}
+
+.captura-light .gifo-subido .subido-botones .subido-texto {
+  margin-bottom: 16px;
+}
+
+.captura-light .gifo-subido .subido-botones .copiar-enlace, .captura-light .gifo-subido .subido-botones .descargar-guifo {
+  width: 256px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 14px;
+  line-height: 36px;
+}
+
+.captura-light .gifo-subido .subido-botones .subido-listo {
+  width: 144px;
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  text-align: center;
+  margin-top: 111px;
+  margin-left: 112px;
+  cursor: pointer;
+  line-height: 36px;
+}
+
+.captura-light .gifo-subido img {
+  float: left;
+  width: 365px;
+  height: 191px;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin-left: 27px;
+  margin-top: 29px;
+}
+
+.captura-light .gifo-subido p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.captura-light .contenedor-mis-guifos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.captura-light .contenedor-mis-guifos img {
+  width: 288px;
+  margin-right: 10px;
+}
+
+.dark-captura {
+  background-color: #110038;
+}
+
+.dark-captura .header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+}
+
+.dark-captura .header h1 {
+  color: #FFFFFF;
+}
+
+.dark-captura .crear-guifos {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark-captura .crear-guifos .barra-crear {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.dark-captura .crear-guifos .crear-guifos-texto .botones .div-comenzar {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-captura .crear-guifos .crear-guifos-texto .botones .div-cancelar {
+  background: #CCCCCC;
+}
+
+.dark-captura .grabacion {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark-captura .grabacion .chequeo {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.dark-captura .grabacion .boton-capturar .icono-camara {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-captura .grabacion .boton-capturar .div-capturar {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-captura .grabacion .botones-vista-previa .boton-repetir, .dark-captura .grabacion .botones-vista-previa .boton-subir {
+  background: #110038;
+  border: 1px solid #B4B4B4;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+  color: #FFFFFF;
+}
+
+.dark-captura .gifo-subido {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark-captura .gifo-subido .barra-subido {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.dark-captura .gifo-subido .subido-texto {
+  color: #FFFFFF;
+}
+
+.dark-captura .gifo-subido .subido-botones .copiar-enlace, .dark-captura .gifo-subido .subido-botones .descargar-guifo {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-captura .gifo-subido .subido-botones .subido-listo {
+  background: #CCCCCC;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-captura .gifo-subido img {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.dark-captura .gifo-subido p {
+  color: #FFFFFF;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+/*# sourceMappingURL=captura-css.css.map */
