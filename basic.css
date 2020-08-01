@@ -1,0 +1,441 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+.header {
+  width: 1438px;
+  height: 23px;
+  padding-top: 4px;
+}
+
+.header h1 {
+  font-size: 12px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+}
+
+.cuerpo {
+  margin-left: 100px;
+  margin-right: 140px;
+}
+
+.encabezado {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.encabezado img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+.encabezado .botones-encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+.encabezado .botones-encabezado .link-boton1 {
+  height: 36px;
+  width: 144px;
+  text-align: center;
+}
+
+.encabezado .botones-encabezado .link-boton1 p {
+  margin-top: 5px;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .theme-seleccion {
+  width: 170px;
+  height: 102px;
+  margin-left: 17px;
+  position: absolute;
+  margin-top: 47px;
+  display: none;
+  cursor: default;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-light {
+  width: 150px;
+  height: 36px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-light span {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-dark {
+  width: 150px;
+  height: 36px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .theme-seleccion .theme-dark span {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .link-boton2 {
+  width: 131px;
+  height: 36px;
+  float: left;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .link-boton2 p {
+  margin-left: 24px;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .flecha-boton2 {
+  width: 36px;
+  height: 36px;
+  float: right;
+}
+
+.encabezado .botones-encabezado .boton2-contenedor .flecha-boton2 img {
+  margin-left: 13px;
+  margin-top: 15px;
+}
+
+.encabezado .botones-encabezado a {
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  margin-left: 16px;
+  margin-top: 9px;
+  position: relative;
+}
+
+.encabezado .botones-encabezado a p {
+  margin-top: 6px;
+}
+
+.buscador {
+  height: 99px;
+  width: 1200px;
+  margin-top: 38px;
+}
+
+.buscador .barra {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+}
+
+.buscador .barra-buscador {
+  height: 48px;
+  width: 1057px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 12px;
+  display: table;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  line-height: 48px;
+  margin-left: 16px;
+}
+
+.buscador .boton-buscador {
+  height: 36px;
+  width: 102px;
+  float: right;
+  margin-right: 14px;
+  position: relative;
+  cursor: pointer;
+}
+
+.buscador .boton-buscador img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.buscador .boton-buscador p {
+  float: right;
+  margin-top: 8px;
+  margin-right: 14px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #B4B4B4;
+}
+
+.menu-input {
+  width: 1200px;
+  height: 160px;
+  z-index: 3;
+  position: absolute;
+  display: none;
+}
+
+.menu-input .input-boton {
+  width: 1055px;
+  height: 34px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 12px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.botones-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  margin-top: 12px;
+  visibility: hidden;
+}
+
+.botones-tags .boton-tags {
+  height: 34px;
+  width: auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  margin-right: 8px;
+  text-align: center;
+  font-weight: 300;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.barra-busqueda {
+  height: 32px;
+  width: 1200px;
+  margin-top: 64px;
+  margin-bottom: 17px;
+}
+
+.barra-busqueda p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.gifs-sugerencias-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+  width: 1200px;
+}
+
+.gifs-sugerencias-contenedor .gif-sugerencias {
+  height: 304px;
+  width: 280px;
+  position: relative;
+}
+
+.gifs-sugerencias-contenedor .gif-sugerencias #gif-sugerencias {
+  width: 280px;
+  height: 280px;
+}
+
+.gifs-sugerencias-contenedor .gif-sugerencias .barra-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  padding: 3px;
+  max-height: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.gifs-sugerencias-contenedor .gif-sugerencias .barra-titulo .boton-cerrar {
+  margin-right: 4px;
+}
+
+.gifs-sugerencias-contenedor .gif-sugerencias .gif-ver-mas {
+  width: 81px;
+  height: 34px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  position: absolute;
+  color: #FFFFFF;
+  margin-left: 14px;
+  cursor: pointer;
+  z-index: 2;
+  top: 83%;
+}
+
+.gifs-sugerencias-contenedor .gif-sugerencias .js-gif-sugerencias {
+  z-index: 1;
+  position: relative;
+}
+
+.resultados-busqueda {
+  height: 32px;
+  width: 1200px;
+  margin-top: 64px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.resultados-busqueda p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.contenedor-resultados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.contenedor-resultados #gif-resultado {
+  height: 298px;
+  max-width: 290px;
+  margin-bottom: 17px;
+  word-break: break-all;
+}
+
+.contenedor-resultados #gif-resultado .gif-hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  position: absolute;
+}
+
+.contenedor-tendencias {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  width: 1200px;
+  grid-gap: 16px;
+}
+
+.contenedor-tendencias .gif-cont-ten {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.contenedor-tendencias .gif-cont-ten:hover .gif-hover {
+  display: block;
+}
+
+.contenedor-tendencias .gif-cont-ten:hover .gif-tendencias {
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.contenedor-tendencias .gif-cont-ten .gif-hover {
+  position: absolute;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 288px;
+  margin-top: -22px;
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contenedor-tendencias .gif-cont-ten .gif-tendencias {
+  height: 298px;
+  max-width: 288px;
+}
+
+.barra-mis-guifos {
+  display: none;
+  height: 32px;
+  width: 1200px;
+  margin-top: 64px;
+  margin-bottom: 17px;
+}
+
+.barra-mis-guifos p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.mis-guifos-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1200px;
+  display: none;
+}
+
+.mis-guifos-contenedor img {
+  width: 288px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=basic.css.map */
