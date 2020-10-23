@@ -1,4 +1,4 @@
-const apiKey = "eq7L69HytYM61kxeb7AkeaVDwEofdYgs";
+
 
 window.addEventListener('load', () => {
   if (localStorage.getItem("theme") === "light"){
