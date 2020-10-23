@@ -1,4 +1,3 @@
-const apiKey = "eq7L69HytYM61kxeb7AkeaVDwEofdYgs";
 
 window.addEventListener("load", () => {
   let arrLocalId = [];
